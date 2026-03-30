@@ -39,7 +39,7 @@ export const HowWorks = () => {
     <section className="py-20 px-6 bg-primary rounded-2xl">
       <div className="max-w-6xl mx-auto">
 
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-secondary mb-6">
+        <h2 className="leading-tight text-3xl md:text-4xl font-bold text-center text-secondary mb-6">
           Como o Aquaverde Funciona
         </h2>
 
