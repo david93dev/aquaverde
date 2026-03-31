@@ -5,6 +5,7 @@ import { AboutProject } from "@/components/about/AboutProject"
 import { ObjectivesSection } from "@/components/objectives/ObjectivesSection"
 import { HowWorks } from "@/components/howWorks/HowWorks"
 import { Results } from "@/components/results/Results"
+import { TeamSection } from "@/components/team/TeamSection"
 
 
 
@@ -17,6 +18,7 @@ export const Home = () => {
         <ObjectivesSection />
         <HowWorks />
         <Results />
+        <TeamSection />
     </div>
   )
 }
