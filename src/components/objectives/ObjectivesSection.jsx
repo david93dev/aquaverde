@@ -18,7 +18,7 @@ export const ObjectivesSection = () => {
     {
       icon: <FaFaucetDrip />,
       title: "Acesso à Água Potável",
-      text: "Levar água limpa para comunidades por meio da purificação de منابع hídricos locais.",
+      text: "Levar água limpa para comunidades por meio da purificação de recursos hídricos locais.",
     },
     {
       icon: <RiRecycleFill />,

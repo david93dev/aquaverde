@@ -2,6 +2,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import { useRef } from "react";
 import { images } from "@/assets/img/img";
+import { PiPlant } from "react-icons/pi";
 
 export const AboutProject = () => {
   const autoplay = useRef(
@@ -37,8 +38,8 @@ export const AboutProject = () => {
 
           {/* Destaque */}
           <div className="mt-6 p-4 bg-green-50 border-l-4 border-green-600 rounded">
-            <p className="text-green-800 font-medium">
-              🌱 Solução sustentável baseada na natureza
+            <p className="text-green-800 font-medium flex items-center gap-2">
+              <PiPlant/> Solução sustentável baseada na natureza
             </p>
           </div>
         </div>
