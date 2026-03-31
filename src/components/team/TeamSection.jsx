@@ -37,10 +37,7 @@ export const TeamSection = () => {
           
           <div className="flex justify-center gap-2 mb-4 text-primary font-medium">
             <span className="bg-primary/10 px-3 py-1 rounded-full">
-              Nossa
-            </span>
-            <span className="bg-primary/10 px-3 py-1 rounded-full">
-              Equipe
+              Nossa Equipe
             </span>
           </div>
 

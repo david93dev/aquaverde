@@ -6,12 +6,14 @@ import { ObjectivesSection } from "@/components/objectives/ObjectivesSection"
 import { HowWorks } from "@/components/howWorks/HowWorks"
 import { Results } from "@/components/results/Results"
 import { TeamSection } from "@/components/team/TeamSection"
+import { ContactSection } from "@/components/contact/ContactSection"
+import { FooterAnimated } from "@/components/footer/Footer"
 
 
 
 export const Home = () => {
   return (
-    <div className="flex flex-col bg-secondary pb-20">
+    <div className="flex flex-col bg-secondary">
         <Navbar />
         <Hero />
         <AboutProject />
@@ -19,6 +21,8 @@ export const Home = () => {
         <HowWorks />
         <Results />
         <TeamSection />
+        <ContactSection />
+        <FooterAnimated />
     </div>
   )
 }
