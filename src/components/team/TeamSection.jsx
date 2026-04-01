@@ -14,14 +14,14 @@ export const TeamSection = () => {
     {
       id: 2,
       name: "Danyevillyn Leite",
-      role: "sebastianatae@gmail.com",
-      image: img2,
+      role: "tiburtinoleitedanyevillyn@gmail.com",
+      image: img3,
     },
     {
       id: 3,
       name: "Sebastiana Lima",
-      role: "tiburtinoleitedanyevillyn@gmail.com",
-      image: img3,
+      role: "sebastianatae@gmail.com",
+      image: img2,
     },
   ];
 

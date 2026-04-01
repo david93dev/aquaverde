@@ -6,6 +6,7 @@ export const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const links = [
+    { name: "início", href: "#inicio" },
     { name: "Sobre Nós", href: "#sobre" },
     { name: "Como Funciona", href: "#como-funciona" },
     { name: "Nossa Equipe", href: "#equipe" },

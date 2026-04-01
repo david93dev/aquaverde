@@ -2,11 +2,11 @@ import results from "@/assets/results.jpg"
 import { PiPlant } from "react-icons/pi";
 import { IoWaterSharp } from "react-icons/io5";
 import { RiRecycleFill } from "react-icons/ri";
-import { LuConstruction } from "react-icons/lu";
+
 
 export const Results = () => {
   return (
-    <section className="relative py-20 px-6 text-primary overflow-hidden">
+    <section id="resultado" className="relative py-20 px-6 text-primary overflow-hidden">
 
       <div className="max-w-5xl mx-auto text-center space-y-8 relative z-10">
         

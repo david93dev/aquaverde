@@ -3,7 +3,7 @@ import { PiPlant } from "react-icons/pi";
 
 export const Hero = () => {
   return (
-    <section className="relative w-full overflow-hidden  py-24">
+    <section id="inicio" className="relative w-full overflow-hidden  py-24">
      
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-10 flex flex-col-reverse md:flex-row items-center gap-12">
@@ -25,8 +25,8 @@ export const Hero = () => {
 
           {/* Botões */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <button className="bg-white text-primary px-6 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition">
-              Conheça o projeto
+            <button onClick={() => (window.location.hash = "resultado")} className="bg-white text-primary px-6 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition">
+              Saiba Mais
             </button>
 
           </div>
