@@ -1,35 +1,32 @@
-// import img1 from "@/assets/user1.jpg";
-// import img2 from "@/assets/user2.jpg";
-// import img3 from "@/assets/user3.jpg";
-
-const img1 = "https://i.pinimg.com/736x/f4/51/e4/f451e40d0c7762ef3b6c7bbe404cebda.jpg" 
-const img2 = "https://i.pinimg.com/736x/9c/97/2c/9c972cbb905de102b0e5d043605c37a6.jpg"
-const img3 = "https://i.pinimg.com/736x/b3/d7/a0/b3d7a009a7abebceea1809fc939796f9.jpg"
+import img1 from "@/assets/person1.jpeg";
+import img2 from "@/assets/person2.jpeg";
+import img3 from "@/assets/person3.jpeg";
+import { AiOutlineMail } from "react-icons/ai";
 
 export const TeamSection = () => {
   const teamMembers = [
     {
       id: 1,
       name: "Bruno Sousa",
-      role: "Desenvolvedor do Projeto",
+      role: "brunosousa19eyn@gmail.com",
       image: img1,
     },
     {
       id: 2,
       name: "Danyevillyn Leite",
-      role: "Pesquisadora",
+      role: "sebastianatae@gmail.com",
       image: img2,
     },
     {
       id: 3,
       name: "Sebastiana Lima",
-      role: "Pesquisadora",
+      role: "tiburtinoleitedanyevillyn@gmail.com",
       image: img3,
     },
   ];
 
   return (
-    <section className="w-full bg-secondary py-20">
+    <section id="equipe" className="w-full bg-secondary py-20">
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Header */}
@@ -74,8 +71,8 @@ export const TeamSection = () => {
               </h3>
 
               {/* Cargo */}
-              <p className="text-gray-600 text-sm mt-1">
-                {member.role}
+              <p className="text-gray-600 text-sm mt-1 flex items-center gap-1">
+               <AiOutlineMail size={16}/> {member.role}
               </p>
 
               {/* Linha decorativa */}

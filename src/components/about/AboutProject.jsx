@@ -14,7 +14,7 @@ export const AboutProject = () => {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [autoplay.current]);
 
   return (
-    <section className="py-20 px-6 bg-primary rounded-2xl">
+    <section id="sobre" className="py-20 px-6 bg-primary rounded-2xl">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* TEXTO */}
         <div>

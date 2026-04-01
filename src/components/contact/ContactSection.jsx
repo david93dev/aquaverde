@@ -4,7 +4,7 @@ import { MdOutlineLocationOn } from "react-icons/md";
 
 export const ContactSection = () => {
   return (
-    <section className="relative w-full overflow-hidden py-20 bg-primary rounded-2xl">
+    <section id="contato" className="relative w-full overflow-hidden py-20 bg-primary rounded-2xl">
       <div className="relative z-10 max-w-2xl mx-auto px-6">
         
         {/* Card principal */}
@@ -26,13 +26,13 @@ export const ContactSection = () => {
               
               <div className="flex items-center gap-3">
                 <HiOutlineMail className="text-white text-xl" />
-                <span>aquaverde@email.com</span>
+                <span>aquaverde.licsert@gmail.com</span>
               </div>
 
-              <div className="flex items-center gap-3">
+              {/* <div className="flex items-center gap-3">
                 <FiPhone className="text-white text-xl" />
                 <span>(83) 99999-9999</span>
-              </div>
+              </div> */}
 
               <div className="flex items-center gap-3">
                 <MdOutlineLocationOn className="text-white text-xl" />
